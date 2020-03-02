@@ -219,6 +219,11 @@
 //         day = 29;
 //         break;
 //     }
+//     case leapYear(year) && (day == 29 && month == 2): {
+//         day = 1;
+//         month = 3
+//         break;
+//     }
 //     case !leapYear(year) && (day == 28 && month == 2): {
 //         day = 1;
 //         month = 3;
