@@ -31,12 +31,4 @@ function setParam() {
     }
 }
 
-
-circle.style.width = '150px';
-circle.style.height = '150px';
-circle.style.background = 'white';
-circle.style.borderRadius = '75px';
-circle.style.marginLeft = 'auto';
-circle.style.marginRight = 'auto';
-
 change.onclick = setParam;
