@@ -1,0 +1,12 @@
+.main-div {
+    width: 100px;
+    background-color: yellow;
+    float: left;
+    text-align: center;
+}
+
+.result {
+    width: 200px;
+    background-color: yellow;
+    text-align: center;
+}
