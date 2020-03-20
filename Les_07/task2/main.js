@@ -19,14 +19,18 @@ function showResult(expr) {
     const userResult = document.querySelector('.inputNum').value;
     const ourResult = eval(expr);
     const msg = document.querySelector('.result');
+    msg.style.visibility = "visible";
     if (userResult == ourResult) {
         msg.innerText = 'Все верно';
-        main(getExpression())
+        setTimeout(() => msg.style.visibility = "hidden", 1000);
+        main(getExpression());
     } else {
         msg.innerText = 'Подумай еще';
-        main(expr)
+        setTimeout(() => msg.style.visibility = "hidden", 1000);
+        main(expr);
     }
 }
+
 
 function main(expression) {
 
