@@ -31,12 +31,10 @@ function showResult(expr) {
     }
 }
 
-
 function main(expression) {
-
     mainDiv.innerText = expression;
     document.querySelector('.btn').addEventListener('click', () => showResult(expression));
 }
 
 let mainDiv = document.querySelector('.main-div');
-main(getExpression())
+main(getExpression());
