@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div class="info">
+        <h1 class="score">Score: {{ score }}</h1>
+        <h1 class="life">Life: {{ life }}</h1>
+    </div>
+    <div class="inpt-div">
+        <label for="input-answer">Type your answer: </label>
+        <input type="number" id="input-answer">
+        <button class="check-answer">CHECK</button>
+    </div>
+    <div class="circle"></div>
+    <script src="app/app.js"></script>
+</body>
+
+</html>

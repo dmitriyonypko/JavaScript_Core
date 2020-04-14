@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(179, 31, 192);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: chartreuse; */
+}
+
+.inpt-div {
+    display: flex;
+    justify-content: center;
+}
+
+#input-answer {
+    padding: 2px;
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+label {
+    font-size: 20px;
+}
+
+.check-answer {
+    padding: 5px;
+    background-color: black;
+    border: 1px solid rgb(179, 31, 192);
+    color: white;
+}
+
+.check-answer:active {
+    color: black;
+}
+
+.circle {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    width: 100%;
+}
+
+.gameOver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(80, 1, 1);
+}
